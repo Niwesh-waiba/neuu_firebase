@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.purple,
                   ),
                   label: Text(
-                    "Activate Users \n Account".toUpperCase(),
+                    "Add student \n Account".toUpperCase(),
                     style: const TextStyle(
                       fontSize: 16,
                       color: Colors.white,
@@ -131,7 +131,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.purple,
                   ),
                   label: Text(
-                    "Block Users \n Account".toUpperCase(),
+                    "remove student\n Account".toUpperCase(),
                     style: const TextStyle(
                       fontSize: 16,
                       color: Colors.white,
@@ -157,7 +157,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.purple,
                   ),
                   label: Text(
-                    "Activate Sellers \n Account".toUpperCase(),
+                    "Add teacher \n Account".toUpperCase(),
                     style: const TextStyle(
                       fontSize: 16,
                       color: Colors.white,
@@ -182,7 +182,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.purple,
                   ),
                   label: Text(
-                    "Block Sellers \n Account".toUpperCase(),
+                    "remove teacher \n Account".toUpperCase(),
                     style: const TextStyle(
                       fontSize: 16,
                       color: Colors.white,
@@ -196,57 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ],
             ),
-            //rider activate and block accounts button ui
 
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ElevatedButton.icon(
-                  onPressed: () {},
-                  icon: const Icon(
-                    Icons.person_add,
-                    color: Colors.purple,
-                  ),
-                  label: Text(
-                    "Activate riders \n Account".toUpperCase(),
-                    style: const TextStyle(
-                      fontSize: 16,
-                      color: Colors.white,
-                      letterSpacing: 3,
-                    ),
-                  ),
-                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.all(20),
-                    backgroundColor: Colors.amber,
-                  ),
-                ),
-
-                const SizedBox(
-                  width: 20,
-                ),
-
-                //block
-                ElevatedButton.icon(
-                  onPressed: () {},
-                  icon: const Icon(
-                    Icons.block_flipped,
-                    color: Colors.purple,
-                  ),
-                  label: Text(
-                    "Block riders \n Account".toUpperCase(),
-                    style: const TextStyle(
-                      fontSize: 16,
-                      color: Colors.white,
-                      letterSpacing: 3,
-                    ),
-                  ),
-                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.all(20),
-                    backgroundColor: Colors.blue,
-                  ),
-                ),
-              ],
-            ),
             //this is logout button
             ElevatedButton.icon(
               onPressed: () {},

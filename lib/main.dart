@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:neuu_firebase/authentication/login_screen.dart';
+import 'package:neuu_firebase/main_screens/home_screen.dart';
 // import 'package:neuu_firebase/main_screens/home_screen.dart';
 
 void main() async {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const LoginScreen(),
+      home: const HomeScreen(),
     );
   }
 }
